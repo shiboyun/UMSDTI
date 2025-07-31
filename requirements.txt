@@ -1,0 +1,8 @@
+chemprop==1.6.1
+numpy==1.23.0
+pandas==2.3.1
+prefetch_generator==1.0.3
+rdkit==2024.3.5
+scikit_learn==1.7.1
+tqdm==4.67.0
+transformers==4.24.0
