@@ -10,7 +10,6 @@ UMSDTI is a deep learning framework for Drug–Target Interaction (DTI) predicti
 - **State-of-the-Art Performance**: Extensive experiments demonstrate that UMSDTI outperforms eight cutting-edge methods across multiple benchmark datasets. Visualizations of attention weights and newly discovered DTIs further highlight its effectiveness and interpretability.
 
 ## System Requirements
-- **OS**: Linux/Windows/macOS
 - **Python**: 3.9+
 - **CUDA**: 11.8+ (recommended)
 - **Memory**: 16 GB+
