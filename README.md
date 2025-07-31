@@ -131,5 +131,3 @@ python main_drugbank.py
    - **MLP (Multi-Layer Perceptron)**: Outputs DTI probability scores via Softmax.
 
 ---
-
-For more details, please refer to the code and comments. If you use UMSDTI in your research, please cite our work. 
