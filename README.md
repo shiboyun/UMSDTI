@@ -3,7 +3,7 @@
 ## Overview
 UMSDTI is a deep learning framework for Drug–Target Interaction (DTI) prediction. It employs a multi-view co-attention architecture that captures drug information from multiple chemical perspectives and protein information from sequence and residue-level interactions, offering a comprehensive and interpretable modeling pipeline.
 
-## 🧠 Key Contributions
+## Key Contributions
 - **Multi-Modal Drug Encoding**: UMSDTI extracts drug features from SMILES sequences, atomic graphs, and chemical bonds, overcoming limitations of traditional GNNs in capturing positional information and enhancing chemical expressiveness.
 - **Structure-Free Protein Contact Modeling**: Instead of relying on 3D structural data, UMSDTI leverages attention maps from pretrained protein language models to infer contact patterns, complementing sequential protein representations.
 - **Cross-Modal Interaction Mechanism**: A co-attention module facilitates multi-granular interactions between drug and target representations, offering interpretability and biological insights into DTI mechanisms.
@@ -116,7 +116,7 @@ python main_drugbank.py
 | --dropout            | Dropout rate                        | 0.1     |
 | --protein_max_length | Max sequence length for proteins    | 2048    |
 
-## 🧬 Model Architecture
+## Model Architecture
 
 1. **Drug Encoder**
    - **MPN (Message Passing Network)**: Encodes atomic-level graph features.
